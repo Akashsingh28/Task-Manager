@@ -1,6 +1,4 @@
-const apiBase = window.location.port === '5000' || window.location.origin.includes('localhost:5000')
-  ? '/api'
-  : 'http://localhost:5000/api';
+const apiBase = '/api';
 let currentUser = null;
 let currentProject = null;
 let currentProjectId = null;
